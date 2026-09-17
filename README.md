@@ -1,5 +1,17 @@
 # React + Vite
 
+## Deploy en GitHub Pages
+
+El workflow de [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) compila y publica automáticamente el proyecto en GitHub Pages cada vez que se hace push a `main`.
+
+Para activarlo una vez:
+
+1. En GitHub, abre `Settings` > `Pages`.
+2. En `Build and deployment`, selecciona `GitHub Actions` como fuente.
+3. Haz push a `main` o ejecuta el workflow manualmente desde la pestaña `Actions`.
+
+La aplicación se publicará en `https://lucasastorga05-art.github.io/repo/`.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
